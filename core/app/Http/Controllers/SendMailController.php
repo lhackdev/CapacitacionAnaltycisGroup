@@ -14,7 +14,7 @@ class SendMailController extends Controller
     public function sendMail(){
 
         $data = [
-            'correo' => 'luisyesidpenaflorian@gmail.com',
+            'correo' => 'desarrollordt@gmail.com',
             'nombre' => 'Ing. Daniel León',
             'mensaje' =>  'Bienvenido, este es un mensaje desde Laravel usando Mailable y Eventos de manera asíncrona',
         ];
